@@ -1,0 +1,22 @@
+nav {
+  height: 10vh;
+  width: 100%;
+  background-color: antiquewhite;
+}
+
+#nav-list {
+  width: 50%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 2.5rem;
+  list-style: none;
+}
+
+.item-link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
