@@ -3,18 +3,11 @@
 
   color: white;
   height: calc(100vh - var(--nav-height));
-  background-image: url("../../assets/diner.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.6)),
+    url("../../assets/diner.jpg");
   background-size: cover;
   background-position: center;
   margin: 0;
-}
-
-.hero-content {
-  background-color: rgba(0, 0, 0, 0.6);
-  position: relative;
-  height: 100%;
-
-  padding: 2rem;
 
   display: flex;
   flex-direction: column;
@@ -23,10 +16,10 @@
   gap: 1.5rem;
 }
 
-.hero-content h1 {
+.hero h1 {
   font-size: 3rem;
 }
 
-.hero-content p {
+.hero p {
   font-size: 2rem;
 }
