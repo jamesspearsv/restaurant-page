@@ -1,13 +1,16 @@
 nav {
-  height: 10vh;
+  height: var(--nav-height);
   width: 100%;
-  background-color: antiquewhite;
+  background-color: var(--color-primary);
+  color: #ffffff;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 2rem;
 }
 
 #nav-list {
-  width: 50%;
   height: 100%;
-  margin: auto;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -24,7 +27,7 @@ nav {
 }
 
 li.active {
-  background-color: cadetblue;
+  background-color: var(--color-secondary);
 }
 
 li:hover {

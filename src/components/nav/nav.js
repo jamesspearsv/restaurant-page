@@ -5,7 +5,10 @@ export default function createNav() {
 
   const navList = document.createElement("ul");
   navList.id = "nav-list";
+  const logo = document.createElement("h2");
+  logo.textContent = "Penny's Diner";
   const nav = document.createElement("nav");
+  nav.appendChild(logo);
   nav.appendChild(navList);
 
   ["Home", "Menu", "About"].forEach((item) => {

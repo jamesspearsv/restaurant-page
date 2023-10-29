@@ -1,4 +1,32 @@
-.home-section {
+.hero {
   text-align: center;
-  background-color: var(--test);
+
+  color: white;
+  height: calc(100vh - var(--nav-height));
+  background-image: url("../../assets/diner.jpg");
+  background-size: 100%;
+  background-position: center;
+  margin: 0;
+}
+
+.hero-content {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: relative;
+  height: 100%;
+
+  padding: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+}
+
+.hero-content p {
+  font-size: 2rem;
 }
