@@ -1,11 +1,24 @@
+:root {
+  font-size: 18px;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 20px;
 }
 
 section {
-  background-color: aquamarine;
-  margin: 1.5rem;
+  width: 75%;
+  margin: 2.5rem auto;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 0.75rem;
+  background-color: beige;
 }

@@ -1,14 +1,11 @@
 import createSkeleton from "../../utilities/skelton";
-import "./home.css";
 
-export default function createHome() {
+export default function createAbout() {
   // Create page skeleton from utilities
   const main = createSkeleton();
 
-  main.classList.add("home-section");
-
-  const p = document.createElement("h1");
-  p.textContent = "Welcome to the Cafe!";
+  const p = document.createElement("p");
+  p.textContent = "About!";
 
   //   Append page content to main and main to #content
   main.appendChild(p);

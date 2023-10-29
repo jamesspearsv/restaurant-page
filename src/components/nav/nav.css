@@ -10,13 +10,24 @@ nav {
   margin: auto;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
-  gap: 2.5rem;
   list-style: none;
 }
 
-.item-link:hover {
-  text-decoration: underline;
+.nav-item {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  transition: background-color ease-in-out 350ms;
+}
+
+li.active {
+  background-color: cadetblue;
+}
+
+li:hover {
   cursor: pointer;
+  text-decoration: underline;
 }

@@ -9,14 +9,11 @@ export default function createNav() {
   nav.appendChild(navList);
 
   ["Home", "Menu", "About"].forEach((item) => {
-    const itemLink = document.createElement("a");
-    itemLink.textContent = item;
-    itemLink.classList.add("item-link");
-
     const navItem = document.createElement("li");
+    navItem.textContent = item;
+    navItem.id = item.toLowerCase();
     navItem.classList.add("nav-item");
 
-    navItem.appendChild(itemLink);
     navList.appendChild(navItem);
   });
 
