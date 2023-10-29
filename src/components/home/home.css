@@ -4,7 +4,7 @@
   color: white;
   height: calc(100vh - var(--nav-height));
   background-image: url("../../assets/diner.jpg");
-  background-size: 100%;
+  background-size: cover;
   background-position: center;
   margin: 0;
 }
@@ -20,7 +20,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 .hero-content h1 {
