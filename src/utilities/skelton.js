@@ -2,7 +2,7 @@
 
 export default function createSkeleton() {
   const content = document.getElementById("content");
-  const main = document.createElement("section");
+  const main = document.createElement("main");
   content.appendChild(main);
 
   return main;

@@ -12,7 +12,7 @@ const initSite = () => {
 
 const rebuildPage = (newTab) => {
   // Remove current active tab from DOM
-  document.querySelector("section").remove();
+  document.querySelector("main").remove();
   document.querySelectorAll(".nav-item").forEach((item) => {
     item.classList.remove("active");
   });

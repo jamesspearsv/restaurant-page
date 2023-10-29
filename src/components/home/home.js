@@ -10,7 +10,7 @@ export default function createHome() {
   main.appendChild(hero);
 
   const heading = document.createElement("h1");
-  heading.textContent = "Welcome to the Diner!";
+  heading.textContent = "Welcome to Penny's Diner!";
   hero.appendChild(heading);
 
   const subtitle = document.createElement("p");
